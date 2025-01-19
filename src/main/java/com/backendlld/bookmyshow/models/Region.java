@@ -4,9 +4,9 @@ import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
 @Getter
 @Setter
+@Entity
 public class Region extends BaseModel{
     private String name;
 //    private List<Theatre> theatreList;
